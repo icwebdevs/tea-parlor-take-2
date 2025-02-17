@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../odin-project"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Tea Parlor Project"
+  }
+}
