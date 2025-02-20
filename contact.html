@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Restaurant Home Page</title>
+    <meta charset="UTF-8" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,6 +20,9 @@
     />
   </head>
   <body>
+
+
+
     <h1 class="contact-title">Contact Us</h1>
     <div class="contitle-div"></div>
 
@@ -31,5 +35,75 @@
       </nav>
     </div>
     <div class="connav-div"></div>
+
+    <h3 class="form-txt">
+      Have questions or want to place an order? <br />
+      Fill out the form below, and we'll get back to you as soon as possible!
+    </h3>
+
+    <form class="contact-form">
+      <div class="contact-div">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          placeholder="John Doe"
+        />
+      </div>
+
+      <div class="contact-div">
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="johndoe@gmail.com"
+        />
+      </div>
+
+      <div class="contact-div">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="123-456-7890" />
+      </div>
+
+      <div class="contact-div">
+        <label for="message">Message/Order:</label>
+        <textarea
+          id="message"
+          name="message"
+          required
+          placeholder=""
+        ></textarea>
+      </div>
+
+      <div class="contact-div">
+        <input type="submit" value="Submit" id="submit" />
+      </div>
+    </form>
+  </div>
+
+    <div class="social-links">
+      <a href="https://www.instagram.com/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.facebook.com/" target="_blank">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://www.x.com/" target="_blank">
+        <i class="fab fa-x"></i>
+      </a>
+      <a href="https://www.youtube.com/" target="_blank">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </div>
+
+    <div class="footer-div"></div>
+
+    <footer class="homepage-footer">
+      <p>&copy; 2023 Fernando's Tea Parlor</p>
+    </footer>
   </body>
 </html>
